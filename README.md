@@ -9,10 +9,13 @@ your cloud environment's setup script.
 Paste this line into your cloud environment's setup script:
 
 ```bash
-git clone --depth 1 https://github.com/Marku-a/claude-agents /tmp/claude-kit && bash /tmp/claude-kit/install.sh || true
+git clone --depth 1 -b master https://github.com/Marku-a/claude-agents /tmp/claude-kit && bash /tmp/claude-kit/install.sh || true
 ```
 
 The only requirements are `bash` and `git`.
+
+`-b master` downloads the `master` branch regardless of which branch is the
+repository's default.
 
 `|| true` keeps the session starting even if the clone or install fails (for
 example, a network error). The agents are then missing, so if they don't show
