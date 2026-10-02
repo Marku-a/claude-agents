@@ -1,6 +1,6 @@
 ---
 name: reviewer
-description: Validates the coder's diff against its spec: correctness, edge cases, tests, security, numerical correctness. Returns PASS or a concrete list of required fixes. Use after the coder finishes. Does not rewrite code.
+description: Use PROACTIVELY after coder finishes, or before pushing any multi-file change. Validates the diff against its spec for correctness, edge cases, tests, security, numerical correctness. Returns PASS or a concrete list of required fixes. Does not rewrite code.
 tools: Read, Grep, Glob, Bash
 model: opus
 ---

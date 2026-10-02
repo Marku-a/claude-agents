@@ -1,6 +1,6 @@
 ---
 name: planner
-description: Turns a non-trivial feature or refactor request into a concrete, self-contained implementation spec (files, steps, acceptance criteria, risks). Use before delegating implementation to the coder agent. Never edits code.
+description: Use PROACTIVELY when a feature or refactor has real design choices, before handing implementation to coder. Writes a self-contained spec (files, steps, acceptance criteria, risks). Never edits code.
 tools: Read, Grep, Glob, WebFetch, WebSearch
 model: opus
 ---
