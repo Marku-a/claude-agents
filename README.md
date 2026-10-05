@@ -4,6 +4,14 @@ A reusable Claude Code agent kit: five subagents plus global routing rules for
 the main session. Install it into every Claude Code on the web session through
 your cloud environment's setup script.
 
+**Working locally?** (Claude Code CLI, IDE extension or desktop app on your own
+machine) Follow [LOCAL.md](LOCAL.md):
+
+```bash
+git clone -b master https://github.com/Marku-a/claude-agents ~/claude-agents
+bash ~/claude-agents/install.sh --local
+```
+
 ## Setup script
 
 Paste this line into your cloud environment's setup script:
@@ -83,6 +91,11 @@ the installer.
     existing installs get new rules. Content outside the markers is kept. A
     backup goes to `~/.claude/CLAUDE.md.bak` when anything changes.
 - It is idempotent: a second run changes nothing.
+- `--local` also copies `local/agents/*.md` over the cloud versions. Today
+  that is `archivist`, which reads `~/.claude/projects/**/*.jsonl` transcripts
+  with Read, Grep and Glob instead of the cloud MCP tools.
+- `--uninstall` removes the kit's agents and its marked `CLAUDE.md` block
+  (with a `.bak` backup), keeping everything else.
 
 Don't edit inside the markers; your edits are overwritten on the next install.
 Put your own rules outside them.
