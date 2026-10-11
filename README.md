@@ -4,6 +4,8 @@ A reusable Claude Code agent kit: five subagents plus global routing rules for
 the main session. Install it into every Claude Code on the web session through
 your cloud environment's setup script.
 
+**מדריך התקנה בעברית (ענן + לוקלי):** [INSTALL.he.md](INSTALL.he.md)
+
 **Working locally?** (Claude Code CLI, IDE extension or desktop app on your own
 machine) Follow [LOCAL.md](LOCAL.md):
 
