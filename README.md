@@ -4,6 +4,9 @@ A reusable Claude Code agent kit: five subagents plus global routing rules for
 the main session. Install it into every Claude Code on the web session through
 your cloud environment's setup script.
 
+**New to this?** [CLOUD.md](CLOUD.md) walks you through the cloud install step
+by step, in plain language: no terminal or programming needed.
+
 **Working locally?** (Claude Code CLI, IDE extension or desktop app on your own
 machine) Follow [LOCAL.md](LOCAL.md):
 
@@ -14,7 +17,9 @@ bash ~/claude-agents/install.sh --local
 
 ## Setup script
 
-Paste this line into your cloud environment's setup script:
+Paste this line into your cloud environment's setup script (environment name
+in the session's title bar → **Edit** → **Setup script**; full steps in
+[CLOUD.md](CLOUD.md)):
 
 ```bash
 git clone --depth 1 -b master https://github.com/Marku-a/claude-agents /tmp/claude-kit && bash /tmp/claude-kit/install.sh || true

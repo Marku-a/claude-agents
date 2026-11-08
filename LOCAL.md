@@ -1,8 +1,8 @@
 # Local install
 
 Use the kit with the Claude Code CLI (or IDE extension / desktop app) on your
-own machine. For Claude Code on the web, see the setup script line in
-[README.md](README.md) instead.
+own machine. For Claude Code on the web, follow [CLOUD.md](CLOUD.md)
+instead.
 
 The local install is the same kit with one change: `archivist` reads your
 local session transcripts in `~/.claude/projects/` instead of the cloud-only
