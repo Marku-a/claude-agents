@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-labelledby="t">
+  <title id="t">claude-agents mascot: an orange spark in a spy hat, trench coat and sunglasses</title>
+  <!-- backdrop -->
+  <circle cx="256" cy="256" r="248" fill="#F3EEE4"/>
+  <circle cx="256" cy="256" r="248" fill="none" stroke="#E4DCCB" stroke-width="6"/>
+
+  <!-- trench coat body -->
+  <path d="M150 330 Q256 300 362 330 L392 452 Q256 486 120 452 Z" fill="#B8894F"/>
+  <!-- coat front edge + shadow -->
+  <path d="M256 318 L260 466" stroke="#8E6634" stroke-width="5" fill="none"/>
+  <!-- belt -->
+  <path d="M136 400 Q256 424 376 400 L380 422 Q256 446 132 422 Z" fill="#7A5528"/>
+  <rect x="240" y="404" width="34" height="28" rx="4" fill="none" stroke="#E9C77B" stroke-width="5"/>
+  <!-- buttons -->
+  <circle cx="232" cy="360" r="6" fill="#6B4A22"/>
+  <circle cx="284" cy="360" r="6" fill="#6B4A22"/>
+  <circle cx="232" cy="456" r="6" fill="#6B4A22"/>
+  <circle cx="284" cy="456" r="6" fill="#6B4A22"/>
+
+  <!-- head: rounded orange spark -->
+  <g stroke="#D97757" stroke-width="30" stroke-linecap="round" fill="none" transform="translate(256 228)">
+    <line x1="0" y1="0" x2="0" y2="-108"/>
+    <line x1="0" y1="0" x2="58" y2="-88"/>
+    <line x1="0" y1="0" x2="98" y2="-50"/>
+    <line x1="0" y1="0" x2="110" y2="4"/>
+    <line x1="0" y1="0" x2="92" y2="58"/>
+    <line x1="0" y1="0" x2="52" y2="96"/>
+    <line x1="0" y1="0" x2="-4" y2="108"/>
+    <line x1="0" y1="0" x2="-56" y2="92"/>
+    <line x1="0" y1="0" x2="-96" y2="54"/>
+    <line x1="0" y1="0" x2="-110" y2="-2"/>
+    <line x1="0" y1="0" x2="-94" y2="-56"/>
+    <line x1="0" y1="0" x2="-54" y2="-92"/>
+  </g>
+  <circle cx="256" cy="228" r="58" fill="#D97757"/>
+
+  <!-- popped-up collar, hiding the lower rays -->
+  <path d="M256 318 L170 268 L150 338 L222 352 Z" fill="#C99B5F" stroke="#8E6634" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M256 318 L342 268 L362 338 L290 352 Z" fill="#C99B5F" stroke="#8E6634" stroke-width="4" stroke-linejoin="round"/>
+
+  <!-- sunglasses -->
+  <g>
+    <path d="M176 206 L336 206" stroke="#1E1E1E" stroke-width="8" stroke-linecap="round"/>
+    <path d="M184 204 H246 Q248 246 216 248 Q184 248 184 204 Z" fill="#1E1E1E"/>
+    <path d="M266 204 H328 Q328 248 296 248 Q264 246 266 204 Z" fill="#1E1E1E"/>
+    <path d="M196 214 L212 214" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" opacity="0.8"/>
+    <path d="M278 214 L294 214" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" opacity="0.8"/>
+  </g>
+
+  <!-- fedora -->
+  <ellipse cx="256" cy="148" rx="138" ry="24" fill="#2A2A2E"/>
+  <path d="M174 146 Q170 82 212 70 Q256 84 300 70 Q342 82 338 146 Z" fill="#34343A"/>
+  <path d="M176 128 Q256 142 336 128 L338 146 Q256 160 174 146 Z" fill="#111114"/>
+  <path d="M232 76 Q256 92 280 76" stroke="#24242A" stroke-width="6" fill="none" stroke-linecap="round"/>
+</svg>
