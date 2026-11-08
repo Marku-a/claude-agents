@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo.svg" alt="claude-agents mascot: an orange spark in a spy hat, trench coat and sunglasses" width="220">
+  <img src="assets/banner.png" alt="claude-agents: a team of five helper agents for Claude Code (scout, planner, coder, reviewer, archivist), with a mascot of an orange spark in a spy hat, trench coat and sunglasses">
 </p>
 
 # claude-agents
