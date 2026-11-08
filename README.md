@@ -1,20 +1,42 @@
+<p align="center">
+  <img src="assets/logo.svg" alt="claude-agents mascot: an orange spark in a spy hat, trench coat and sunglasses" width="220">
+</p>
+
 # claude-agents
 
-A reusable Claude Code agent kit: five subagents plus global routing rules for
-the main session. Install it into every Claude Code on the web session through
-your cloud environment's setup script.
+A reusable Claude Code agent kit: five helper agents (subagents) plus routing
+rules that tell the main Claude session when to hand work to them.
 
-**Working locally?** (Claude Code CLI, IDE extension or desktop app on your own
-machine) Follow [LOCAL.md](LOCAL.md):
+## Install: pick ONE
 
-```bash
-git clone -b master https://github.com/Marku-a/claude-agents ~/claude-agents
-bash ~/claude-agents/install.sh --local
-```
+Where do you use Claude Code?
 
-## Setup script
+### ☁️ In the cloud: claude.ai/code in a browser, or the Claude phone app
 
-Paste this line into your cloud environment's setup script:
+Claude runs on a cloud computer, not yours. You paste **one line** into your
+cloud environment's settings once, and every new session gets the kit.
+
+**➡️ Step-by-step guide: [CLOUD.md](CLOUD.md)** (plain language, no terminal
+or programming needed)
+
+### 💻 On your own computer: the terminal, an IDE extension, or the desktop app working in a folder on your computer
+
+You run the installer once in a terminal on your machine.
+
+**➡️ Step-by-step guide: [LOCAL.md](LOCAL.md)**
+
+Not sure which one you use? If you open Claude Code in a web browser at
+claude.ai/code, or in the Claude phone app, it's the **cloud** one.
+
+---
+
+*Unofficial community project. Not made or endorsed by Anthropic.*
+
+## Cloud setup script (reference)
+
+The line that [CLOUD.md](CLOUD.md) asks you to paste into your environment's
+setup script (environment name in the session's title bar → **Edit** →
+**Setup script**):
 
 ```bash
 git clone --depth 1 -b master https://github.com/Marku-a/claude-agents /tmp/claude-kit && bash /tmp/claude-kit/install.sh || true
